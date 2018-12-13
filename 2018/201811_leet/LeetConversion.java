@@ -18,6 +18,7 @@ public class LeetConversion {
 		}
 	};
 	
+	// LeetMapから文字列を取得
 	public static String getLeet(String beforeConvStr) {
 		return leetMap.get(beforeConvStr);
 	}
